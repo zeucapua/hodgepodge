@@ -26,6 +26,15 @@ import SiteLayout from "../layouts/SiteLayout.astro"
       >
         Checkbox  
       </button>
+
+      <button
+        hx-post="/addWhiteboard"
+        hx-target="#blocks"
+        hx-swap="beforeend"
+        class="border px-4 py-1"
+      >
+        Whiteboard
+      </button>
     </menu>
   </main>
 </SiteLayout>
